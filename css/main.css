@@ -1,0 +1,103 @@
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.search_area {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;/*包含块*/
+}
+
+.search>form {
+    height: 100px;
+    line-height: 100px;
+}
+
+.search_area>.logo, .search {
+    float: left;
+}
+.shoppingCart {
+    height: 100px;
+    float: left;
+    position: absolute;
+    right: 0px;
+}
+.shoppingCart>form {
+    height: 100px;
+    line-height: 100px;
+}
+
+.shoppingCart>form button {
+    width: 92px;
+    height: 40px;
+    border: none;
+}
+.shoppingCart button:first-child{
+    background-color: #ff2832;
+    color: white;
+}
+.shoppingCart button:last-child{
+    border: 1px solid rgb(203, 198, 198);
+}
+
+#sprite {
+    background-image: url("../images/head_sprite.png");
+    background-position: 0 -346px;
+    width: 48px;
+    height: 40px;
+    border: none;
+
+}
+
+#names {
+    width: 398px;
+    height: 36px;
+    border: 2px solid #ff2832;
+    border-right: none;
+
+}
+
+#classify {
+    width: 92px;
+    height: 36px;
+    border: none;
+    outline: 2px solid #ff2832;
+    vertical-align: middle;
+}
+
+/* -------------分界线------------------- */
+.nav_top{ 
+    
+    height: 40px;
+    color: #646464;
+    font:14px/40px "Microsoft Yahei";
+    border-bottom: 3px solid #ff2832;
+}
+.all{
+    width: 191px;
+    height: 40px;
+    background-color: #ff2832;
+    text-align: center;
+    line-height: 40px;
+}
+.nav_top li{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

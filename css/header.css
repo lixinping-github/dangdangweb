@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #666;
+}
+
+/* -----整体布局 */
+.banner{
+    height: 200px;
+    overflow: hidden;
+}
+.banner>a {
+    display: block;
+    /*将行内元素转换为块级元素*/
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #f9f9f9;
+}
+
+nav>div {
+    width: 1200px;
+    height: 34px;
+    margin: 0 auto;
+    font: 12px 'Hiragino Sans GB', "simsun", "Arial";
+    color: #646464;
+}
+
+
+/*右侧和左侧导航*/
+.nav_left li,.nav_right li{
+    float: left;
+    font: 12px 'Hiragino Sans GB', "simsun", "Arial";
+    line-height: 34px;
+}
+/*右侧导航*/
+.nav_right {
+    float: right;
+}
+.right_padding{
+padding: 0px 7px 0px 8px;
+}
+.line{
+    color: #cbc6c6;
+    font-size: 10px;
+}
+.fa-cart-shopping{
+color: #FF2832;
+}
+
+/* ---------------------------------- */
