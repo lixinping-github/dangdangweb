@@ -194,4 +194,20 @@ article>div {
     height: 119px;
     background-color: #35ae69;
 }
+aside{
+    height: 28px;
+}
+aside>div{
+    width: 50%;
+    height: 28px;
+    float: left;
+    text-align: center;
+        background-color: #f0f0f0;
+}
+aside+div{
+    padding-top: 6px;
+    width: 202px;
+    height: 142px;
+    background-color: #10311f;
+}
 /* -----------------分界线--------------- */
