@@ -70,29 +70,63 @@
 
 /* -------------分界线------------------- */
 .nav_top{ 
-    color: #646464;
-    font:14px/40px "Microsoft Yahei";
+    line-height: 40px;
     border-bottom: 3px solid #ff2832;
+}
+.nav_top li{
+    float: left;
 }
 .nav_top>div{
    width: 1200px; 
    margin: 0 auto;
 }
+/* 除开第一个元素的其他li元素 */
+.nav_top>div>ul>li:not(:first-child){
+    padding: 0px 15px;
+    color: #323232;
+    font: 14px / 40px "Microsoft Yahei";
+    font-weight: bold;
+}
 .all{
-    width: 191px;
-    height: 40px;
-    background-color: #ff2832;
-    color: rgb(255, 255, 255);
+    width: 200px;
+    background-color: #ff2832;   
     text-align: center;
-    line-height: 40px;
 }
-.all:first-child{
-    
+.all_a{
+    position: relative;
+    left: -25px;
 }
-.nav_top li{
-    float: left;
+.all>i{
+    position: relative;
+    right: -20px;
 }
+.all_a:link,.all>i{
+    color: white;
+    font-weight: bold;
+}
+/* -----------------分界线--------------- */
+article>div{
+    width: 1200px;
+    margin: 0 auto;
+  
+}
+article>div>div{
+height: 480px;
+float: left;
+}
+.article_flag1{
+width: 200px;
 
+background-color: #86238f;
+}
+.article_flag2{
+    width: 796px;
+    background-color: #27948e;
+}
+.article_flag3{
+    width: 202px;
+    background-color: #978c30;
+}
 
 
 
