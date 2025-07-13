@@ -110,9 +110,10 @@ article>div{
     margin: 0 auto;
   
 }
-article>div>div{
+article>div>.article_flag1{
 height: 480px;
 float: left;
+font: 14px / 30px "Microsoft Yahei";
 }
 .article_flag1{
 width: 200px;
@@ -131,8 +132,7 @@ background-color: rgb(250, 250, 250);
     background-color: #978c30;
 }
 
-
-
+/* -----------------分界线--------------- */
 
 
 
