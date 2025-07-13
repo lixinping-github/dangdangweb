@@ -116,8 +116,11 @@ float: left;
 }
 .article_flag1{
 width: 200px;
-
-background-color: #86238f;
+background-color: rgb(250, 250, 250);
+}
+.article_flag1>ul>li{
+        height: 30px;
+        padding-left: 18px;
 }
 .article_flag2{
     width: 796px;
