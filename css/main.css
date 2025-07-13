@@ -179,6 +179,7 @@ article>div {
     float: left;
     width: 199px;
     height: 160px;
+    
 
 }
 .article_flag3>div:nth-child(1){
@@ -199,7 +200,7 @@ aside{
 }
 aside>div{
     width: 50%;
-    height: 28px;
+    
     float: left;
     text-align: center;
         background-color: #f0f0f0;
@@ -208,6 +209,16 @@ aside+div{
     padding-top: 6px;
     width: 202px;
     height: 142px;
-    background-color: #10311f;
+    
+}
+aside+div>ul>li{
+    width:183px;
+    height: 25px;
+}
+aside+div>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
 }
 /* -----------------分界线--------------- */
