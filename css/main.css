@@ -116,6 +116,7 @@ float: left;
 font: 14px / 30px "Microsoft Yahei";
 }
 .article_flag1{
+padding: 4px 0px;  
 width: 200px;
 background-color: rgb(250, 250, 250);
 }
@@ -124,19 +125,42 @@ background-color: rgb(250, 250, 250);
         padding-left: 18px;
 }
 .article_flag2{
-    width: 796px;
     background-color: #27948e;
+    padding-right: 1px;
+    float: left;
+    width: 796px;
+    
 }
 .article_flag3{
     width: 202px;
+    height: 486px;
     background-color: #978c30;
 }
 
 #flag{
+    padding-bottom: 1px;
     width: 796px;
     height: 326px;
+    float: left;
+    position: relative;
 }
+#flag>a{
+    display: block;
+    width: 796px;
+    height: 326px;
+    cursor: pointer;
+    position: absolute;
 
+}
+.The_list{
+    cursor: pointer;
+    border-right: 1px solid #e6e6e6;
+    padding-bottom: 1px;
+    float: left;
+    width: 198px;
+    height: 160px;
+    background-color: #3a8432;
+}
 /* -----------------分界线--------------- */
 
 
