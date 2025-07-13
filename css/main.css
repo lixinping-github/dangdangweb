@@ -8,7 +8,8 @@
 .search_area {
     width: 1200px;
     margin: 0 auto;
-    position: relative;/*包含块*/
+    position: relative;
+    /*包含块*/
 }
 
 .search>form {
@@ -16,15 +17,18 @@
     line-height: 100px;
 }
 
-.search_area>.logo, .search {
+.search_area>.logo,
+.search {
     float: left;
 }
+
 .shoppingCart {
     height: 100px;
     float: left;
     position: absolute;
     right: 0px;
 }
+
 .shoppingCart>form {
     height: 100px;
     line-height: 100px;
@@ -35,11 +39,13 @@
     height: 40px;
     border: none;
 }
-.shoppingCart button:first-child{
+
+.shoppingCart button:first-child {
     background-color: #ff2832;
     color: white;
 }
-.shoppingCart button:last-child{
+
+.shoppingCart button:last-child {
     border: 1px solid rgb(203, 198, 198);
 }
 
@@ -69,82 +75,95 @@
 }
 
 /* -------------分界线------------------- */
-.nav_top{ 
+.nav_top {
     line-height: 40px;
     border-bottom: 3px solid #ff2832;
 }
-.nav_top li{
+
+.nav_top li {
     float: left;
 }
-.nav_top>div{
-   width: 1200px; 
-   margin: 0 auto;
+
+.nav_top>div {
+    width: 1200px;
+    margin: 0 auto;
 }
+
 /* 除开第一个元素的其他li元素 */
-.nav_top>div>ul>li:not(:first-child){
+.nav_top>div>ul>li:not(:first-child) {
     padding: 0px 15px;
     color: #323232;
     font: 14px / 40px "Microsoft Yahei";
     font-weight: bold;
 }
-.all{
+
+.all {
     width: 200px;
-    background-color: #ff2832;   
+    background-color: #ff2832;
     text-align: center;
 }
-.all_a{
+
+.all_a {
     position: relative;
     left: -25px;
 }
-.all>i{
+
+.all>i {
     position: relative;
     right: -20px;
 }
-.all_a:link,.all>i{
+
+.all_a:link,
+.all>i {
     color: white;
     font-weight: bold;
 }
+
 /* -----------------分界线--------------- */
-article>div{
+article>div {
     width: 1200px;
     margin: 0 auto;
-  
+
 }
-article>div>.article_flag1{
-height: 480px;
-float: left;
-font: 14px / 30px "Microsoft Yahei";
+
+.article_flag1 {
+    height: 486px;
+    float: left;
+    font: 14px / 30px "Microsoft Yahei";
+    padding: 4px 0px;
+    width: 200px;
+    background-color: rgb(250, 250, 250);
 }
-.article_flag1{
-padding: 4px 0px;  
-width: 200px;
-background-color: rgb(250, 250, 250);
+
+.article_flag1>ul>li {
+    height: 30px;
+    padding-left: 18px;
 }
-.article_flag1>ul>li{
-        height: 30px;
-        padding-left: 18px;
-}
-.article_flag2{
+
+.article_flag2 {
     background-color: #27948e;
-    
+
     float: left;
     width: 796px;
-    
+
 }
-.article_flag3{
+
+.article_flag3 {
+    float: left;
     width: 202px;
     height: 486px;
     background-color: #978c30;
 }
 
-#flag{
+#flag {
     padding-bottom: 1px;
     width: 796px;
     height: 326px;
     float: left;
     position: relative;
 }
-#flag>a{
+
+#flag>a {
     display: block;
     width: 796px;
     height: 326px;
@@ -152,24 +171,27 @@ background-color: rgb(250, 250, 250);
     position: absolute;
 
 }
-.The_list{
+
+.The_list {
     cursor: pointer;
     border-right: 1px solid #e6e6e6;
-    padding-bottom: 1px;
+    border-bottom: 1px solid #e6e6e6;
     float: left;
-    width: 198px;
+    width: 199px;
     height: 160px;
-    
+
+}
+.article_flag3>div:nth-child(1){
+    width: 202px;
+    height: 195px;
+    background-color: #27948e;
+}
+.article_flag3>div:nth-child(2){
+    width: 202px;
+}
+.article_flag3>div:nth-child(3){
+    width: 202px;
+    height: 119px;
+    background-color: #35ae69;
 }
 /* -----------------分界线--------------- */
-
-
-
-
-
-
-
-
-
-
-

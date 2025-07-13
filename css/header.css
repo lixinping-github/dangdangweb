@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     color: #666;
+     box-sizing: border-box;
 }
 
 /* -----整体布局 */
