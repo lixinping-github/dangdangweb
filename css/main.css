@@ -70,18 +70,24 @@
 
 /* -------------分界线------------------- */
 .nav_top{ 
-    
-    height: 40px;
     color: #646464;
     font:14px/40px "Microsoft Yahei";
     border-bottom: 3px solid #ff2832;
+}
+.nav_top>div{
+   width: 1200px; 
+   margin: 0 auto;
 }
 .all{
     width: 191px;
     height: 40px;
     background-color: #ff2832;
+    color: rgb(255, 255, 255);
     text-align: center;
     line-height: 40px;
+}
+.all:first-child{
+    
 }
 .nav_top li{
     float: left;
