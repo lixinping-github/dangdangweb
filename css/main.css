@@ -1,4 +1,3 @@
-
 .search_area {
     position: relative;
     /*包含块*/
@@ -127,7 +126,7 @@ article>div {
 }
 
 .article_flag2 {
-    background-color: #27948e;
+
     border-bottom: 1px solid #e6e6e6;
     float: left;
     width: 796px;
@@ -166,71 +165,102 @@ article>div {
     float: left;
     width: 199px;
     height: 160px;
-    
+
 
 }
-.article_flag3>div:nth-child(1){
+
+.article_flag3>div:nth-child(1) {
     border-top: 1px solid #e6e6e6;
     width: 202px;
     height: 195px;
-    background-color: #27948e;
+
 }
-.article_flag3>div:nth-child(2){
+
+.article_flag3>div:nth-child(2) {
     width: 202px;
     border-bottom: 1px solid #e6e6e6;
 }
-.article_flag3>div:nth-child(3){
+
+.article_flag3>div:nth-child(3) {
     width: 202px;
     height: 119px;
-    background-color: #35ae69;
+
 }
-aside{
+
+aside {
     height: 28px;
 }
-aside>div{
+
+aside>div {
     width: 50%;
     float: left;
     text-align: center;
-        background-color: #f0f0f0;
+    background-color: #f0f0f0;
 }
-aside+div{
+
+aside+div {
     padding-top: 6px;
     width: 202px;
     height: 142px;
-    
+
 }
-aside+div>ul>li{
-    width:183px;
+
+aside+div>ul>li {
+    width: 183px;
     height: 25px;
 }
-aside+div>ul>li>a{
+
+aside+div>ul>li>a {
     display: block;
     width: 100%;
     height: 100%;
     font-size: 12px;
 }
-.article_flag3>div:nth-child(3) img{
-position: absolute;
+
+.article_flag3>div:nth-child(3) img {
+    position: absolute;
 }
+
 /* -----------------抢购部分分界线--------------- */
 
-.rush_to_purchase>div{
+.rush_to_purchase>div {
     background-color: rgb(76, 128, 111);
     height: 497px;
-    
+
 }
-.home_miaosha{
+
+.home_miaosha {
     width: 996px;
+    background-color: #243335;
 }
-.home_miaosha>head{
+
+.home_miaosha>.head {
+    width: 995px;
     height: 39px;
     border-bottom: 2px solid #3c3c3c;
+    background-color: #509774;
 }
-.home_miaosha>.head_bottom{
+
+.home_miaosha>.head>div {
+    height: 39px;
+    padding-left: 113px;
+    width: 224px;
+    background-color: #5f6dcb;
+}
+
+.div_times a {
+    display: block;
+    width: 83px;
+    height: 39px;
+    background-image: url(../images/home_miaosha_title-1561107108.png);
+    background-size: 64px 39px;
+    background-repeat: no-repeat;
+}
+
+.home_miaosha>.head_bottom {
     border: 1px solid #e6e6e6;
     border-right: none;
     width: 995px;
     height: 454px;
+    background-color: #bc5d5d;
 }
-
-
