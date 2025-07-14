@@ -217,9 +217,20 @@ position: absolute;
 .rush_to_purchase>div{
     background-color: rgb(76, 128, 111);
     height: 497px;
+    
 }
-
-
-
+.home_miaosha{
+    width: 996px;
+}
+.home_miaosha>head{
+    height: 39px;
+    border-bottom: 2px solid #3c3c3c;
+}
+.home_miaosha>.head_bottom{
+    border: 1px solid #e6e6e6;
+    border-right: none;
+    width: 995px;
+    height: 454px;
+}
 
 
