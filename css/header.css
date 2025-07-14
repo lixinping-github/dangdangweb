@@ -4,22 +4,29 @@
     list-style: none;
     text-decoration: none;
     color: #666;
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
-.w{
-width: 1200px;
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /* -----整体布局 */
-.banner{
+.banner {
     height: 200px;
     overflow: hidden;
 }
+
 .banner>a {
     display: block;
     /*将行内元素转换为块级元素*/
-    
-    margin: 0 auto;
 }
 
 nav {
@@ -28,31 +35,35 @@ nav {
 
 nav>div {
     height: 34px;
-    margin: 0 auto;
     font: 12px 'Hiragino Sans GB', "simsun", "Arial";
     color: #646464;
 }
 
 
 /*右侧和左侧导航*/
-.nav_left li,.nav_right li{
+.nav_left li,
+.nav_right li {
     float: left;
     font: 12px 'Hiragino Sans GB', "simsun", "Arial";
     line-height: 34px;
 }
+
 /*右侧导航*/
 .nav_right {
     float: right;
 }
-.right_padding{
-padding: 0px 7px 0px 8px;
+
+.right_padding {
+    padding: 0px 7px 0px 8px;
 }
-.line{
+
+.line {
     color: #cbc6c6;
     font-size: 10px;
 }
-.fa-cart-shopping{
-color: #FF2832;
+
+.fa-cart-shopping {
+    color: #FF2832;
 }
 
 /* ---------------------------------- */

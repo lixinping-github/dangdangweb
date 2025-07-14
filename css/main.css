@@ -1,12 +1,5 @@
-.clearfix::before,
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .search_area {
-    margin: 0 auto;
     position: relative;
     /*包含块*/
 }
@@ -83,10 +76,6 @@
     float: left;
 }
 
-.nav_top>div {
-    margin: 0 auto;
-}
-
 /* 除开第一个元素的其他li元素 */
 .nav_top>div>ul>li:not(:first-child) {
     padding: 0px 15px;
@@ -119,7 +108,6 @@
 
 /* -----------------分界线--------------- */
 article>div {
-    margin: 0 auto;
     height: 508px;
     padding-bottom: 20px;
 }
@@ -201,7 +189,6 @@ aside{
 }
 aside>div{
     width: 50%;
-    
     float: left;
     text-align: center;
         background-color: #f0f0f0;
@@ -225,4 +212,14 @@ aside+div>ul>li>a{
 .article_flag3>div:nth-child(3) img{
 position: absolute;
 }
-/* -----------------分界线--------------- */
+/* -----------------抢购部分分界线--------------- */
+
+.rush_to_purchase>div{
+    background-color: rgb(76, 128, 111);
+    height: 497px;
+}
+
+
+
+
+
