@@ -6,7 +6,6 @@
 }
 
 .search_area {
-    width: 1200px;
     margin: 0 auto;
     position: relative;
     /*包含块*/
@@ -85,7 +84,6 @@
 }
 
 .nav_top>div {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -121,9 +119,9 @@
 
 /* -----------------分界线--------------- */
 article>div {
-    width: 1200px;
     margin: 0 auto;
-
+    height: 508px;
+    padding-bottom: 20px;
 }
 
 .article_flag1 {
@@ -142,7 +140,7 @@ article>div {
 
 .article_flag2 {
     background-color: #27948e;
-
+    border-bottom: 1px solid #e6e6e6;
     float: left;
     width: 796px;
 
@@ -150,9 +148,10 @@ article>div {
 
 .article_flag3 {
     float: left;
-    width: 202px;
+    width: 203px;
     height: 486px;
-    background-color: #978c30;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
 }
 
 #flag {
@@ -183,12 +182,14 @@ article>div {
 
 }
 .article_flag3>div:nth-child(1){
+    border-top: 1px solid #e6e6e6;
     width: 202px;
     height: 195px;
     background-color: #27948e;
 }
 .article_flag3>div:nth-child(2){
     width: 202px;
+    border-bottom: 1px solid #e6e6e6;
 }
 .article_flag3>div:nth-child(3){
     width: 202px;
@@ -220,5 +221,8 @@ aside+div>ul>li>a{
     width: 100%;
     height: 100%;
     font-size: 12px;
+}
+.article_flag3>div:nth-child(3) img{
+position: absolute;
 }
 /* -----------------分界线--------------- */

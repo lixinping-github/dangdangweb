@@ -6,6 +6,9 @@
     color: #666;
      box-sizing: border-box;
 }
+.w{
+width: 1200px;
+}
 
 /* -----整体布局 */
 .banner{
@@ -15,7 +18,7 @@
 .banner>a {
     display: block;
     /*将行内元素转换为块级元素*/
-    width: 1200px;
+    
     margin: 0 auto;
 }
 
@@ -24,7 +27,6 @@ nav {
 }
 
 nav>div {
-    width: 1200px;
     height: 34px;
     margin: 0 auto;
     font: 12px 'Hiragino Sans GB', "simsun", "Arial";
