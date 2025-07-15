@@ -224,18 +224,17 @@ aside+div>ul>li>a {
 /* -----------------抢购部分分界线--------------- */
 
 .rush_to_purchase>div {
-    
+    background-color: #2e5697;
     height: 497px;
 
 }
 
 .home_miaosha {
-    width: 996px;
-    
+    width: 999px;
 }
 
 .home_miaosha>.head {
-    width: 995px;
+    width: 991px;
     height: 39px;
     border-bottom: 2px solid #3c3c3c;
     
@@ -295,9 +294,25 @@ aside+div>ul>li>a {
     color: #e14951;
 }
 .home_miaosha>.head_bottom {
-    border: 1px solid #e6e6e6;
-    border-right: none;
-    width: 995px;
+    border-left:1px solid #e6e6e6;
+    width: 991px;
     height: 454px;
     background-color: #bc5d5d;
+}
+
+.sh_box{
+    float: left;
+    width: 198px;
+    height: 227px;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.sh_box>a{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.book_name{
+    width: 100%;
+    margin: 0 9px;
 }

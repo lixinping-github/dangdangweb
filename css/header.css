@@ -6,6 +6,11 @@
     color: #666;
     box-sizing: border-box;
 }
+.book_name_e{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .clearfix::before,
 .clearfix::after {
     content: "";
