@@ -1,0 +1,36 @@
+.footer_pic_new {
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    border-bottom: 1px solid #ebebeb;
+}
+
+.footer_pic_new_inner {
+    height: 68px;
+    margin: 0 auto;
+    width: 770px;
+    
+}
+
+.footer_pic_new_inner>a {
+    display: block;
+    height: 52px;
+    width: 187px;
+    float: left;
+    margin-left:30px ;
+}
+.footer_pic_new_inner>a>img{
+    height: 68px;
+}
+.public_footer_new{
+    width: 920px;
+    height: 170px;
+    margin: 0 auto;
+     border-bottom: 1px solid #ebebeb;
+}
+.public_footer_new>div{
+    
+    float: left;
+    width: calc(100%/6);
+    height: 166px;
+    background-color:chocolate ;
+}
