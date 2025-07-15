@@ -243,18 +243,17 @@ aside+div>ul>li>a {
 
 .home_miaosha>.head>div {
     height: 39px;
-    padding-left: 113px;
     width: 224px;
-    background-color: #5f6dcb;
 }
 
 .div_times a {
     display: block;
-    width: 83px;
     height: 39px;
+    width: 83px;
     background-image: url(../images/home_miaosha_title-1561107108.png);
     background-size: 64px 39px;
     background-repeat: no-repeat;
+   
 }
 
 .home_miaosha>.head_bottom {
