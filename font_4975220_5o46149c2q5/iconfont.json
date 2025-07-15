@@ -1,0 +1,16 @@
+{
+  "id": "4975220",
+  "name": "dangdang",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12663111",
+      "name": "闹钟",
+      "font_class": "naozhong_huaban",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    }
+  ]
+}

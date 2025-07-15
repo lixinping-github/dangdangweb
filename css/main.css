@@ -242,20 +242,29 @@ aside+div>ul>li>a {
 }
 
 .home_miaosha>.head>div {
+    float: left;
     height: 39px;
     width: 224px;
 }
-
+.div_times{
+    line-height: 39px;
+}
 .div_times a {
     display: block;
     height: 39px;
     width: 83px;
     background-image: url(../images/home_miaosha_title-1561107108.png);
     background-size: 64px 39px;
+    background-position: 0px 4px;
     background-repeat: no-repeat;
-   
+   float: left;
 }
-
+.head>ul{
+    float:right;
+}
+.head>ul>li{
+    float: left;
+}
 .home_miaosha>.head_bottom {
     border: 1px solid #e6e6e6;
     border-right: none;
