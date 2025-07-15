@@ -8,7 +8,7 @@
     height: 68px;
     margin: 0 auto;
     width: 770px;
-    
+
 }
 
 .footer_pic_new_inner>a {
@@ -16,21 +16,72 @@
     height: 52px;
     width: 187px;
     float: left;
-    margin-left:30px ;
+    margin-left: 30px;
 }
-.footer_pic_new_inner>a>img{
+
+.footer_pic_new_inner>a>img {
     height: 68px;
 }
-.public_footer_new{
+
+.public_footer_new {
+    width: 920px;
+    height: 170px;
+    padding-top: 30px;
+    margin: 0 auto;
+    
+}
+
+.public_footer_new>div {
+
+    float: left;
+    width: calc(100%/6);
+    color: #7d7d7d;
+    font-size: 12px;
+}
+
+.public_footer_new>div>ul>li:first-child {
+    color: #323232;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.public_footer_end{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+}
+.public_footer_end_input{
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 12px;
     width: 920px;
     height: 170px;
     margin: 0 auto;
-     border-bottom: 1px solid #ebebeb;
-}
-.public_footer_new>div{
     
-    float: left;
-    width: calc(100%/6);
-    height: 166px;
-    background-color:chocolate ;
 }
+.public_footer_end_input>ul{
+    padding-top: 10px;
+    
+    width: 100%;
+    /* 这一部分写的跟狗屎一样，算是乱写了，哈哈哈哈 */
+}
+.public_footer_end_input>ul>li{
+    width: calc(100%/9);
+    text-align: center;
+    float: left;
+    
+}
+.public_footer_end_input>ul>span{
+    float: left;
+}
+.public_footer_end_input>p,.ICP{
+    margin: 8px 0px;
+}
+.ICP>a{
+margin:0px 10px;
+}
+.end_imgs>img{
+margin:20px;
+}
+
+
+
+
