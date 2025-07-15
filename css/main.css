@@ -224,21 +224,21 @@ aside+div>ul>li>a {
 /* -----------------抢购部分分界线--------------- */
 
 .rush_to_purchase>div {
-    background-color: rgb(76, 128, 111);
+    
     height: 497px;
 
 }
 
 .home_miaosha {
     width: 996px;
-    background-color: #243335;
+    
 }
 
 .home_miaosha>.head {
     width: 995px;
     height: 39px;
     border-bottom: 2px solid #3c3c3c;
-    background-color: #509774;
+    
 }
 
 .home_miaosha>.head>div {
@@ -246,10 +246,13 @@ aside+div>ul>li>a {
     height: 39px;
     width: 224px;
 }
-.div_times{
+
+.div_times {
     line-height: 39px;
+
 }
-.div_times a {
+
+.div_times a{
     display: block;
     height: 39px;
     width: 83px;
@@ -257,13 +260,39 @@ aside+div>ul>li>a {
     background-size: 64px 39px;
     background-position: 0px 4px;
     background-repeat: no-repeat;
-   float: left;
-}
-.head>ul{
-    float:right;
-}
-.head>ul>li{
     float: left;
+}
+
+.div_times>span {
+    height: 24px;
+    width: 24px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.div_times>.h,
+.div_times>.m,
+.div_times>.s{
+
+    border: 1px solid rgb(41, 40, 40);
+    padding: 3px 5px;
+
+}
+
+.head>ul {
+    float: right;
+    height: 39px;
+}
+
+.head>ul>li {
+    float: left;
+    margin-right: 50px;
+    line-height: 39px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.head>ul>li:nth-child(3)>a{
+    color: #e14951;
 }
 .home_miaosha>.head_bottom {
     border: 1px solid #e6e6e6;
