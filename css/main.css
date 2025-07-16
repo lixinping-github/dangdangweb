@@ -632,7 +632,7 @@ aside+div>ul>li>a {
 /* -------------分界线-------------------------*/
 .eclothes {
     height: 570px;
-    margin-bottom:10px ;
+    margin-bottom: 10px;
 }
 
 .eclothes_aside_left_header {
@@ -667,6 +667,7 @@ aside+div>ul>li>a {
 .eclothes_aside_left_header_h6>ul>li:first-child {
     border-left: #c8c8c8 solid 1px;
 }
+
 .eclothes_aside_left_content_left>ul>li>a {
     font: 12px/28px "Microsoft YaHei";
     display: block;
@@ -674,42 +675,49 @@ aside+div>ul>li>a {
     height: 28px;
     padding-left: 16px;
 }
-.eclothes_aside_left_content{
+
+.eclothes_aside_left_content {
     display: flex;
     border-bottom: #c8c8c8 solid 1px;
 
 }
-.eclothes_aside_left_content_left{
-     border-top: #c8c8c8 solid 1px;
+
+.eclothes_aside_left_content_left {
+    border-top: #c8c8c8 solid 1px;
     border-right: #c8c8c8 solid 1px;
     width: 238px;
     height: 531px;
 }
+
 .eclothes_aside_left_content_left>ul {
     display: flex;
     flex-wrap: wrap;
 }
 
-.eclothes_aside_left_content_right{
-   
+.eclothes_aside_left_content_right {
+
     display: flex;
     flex-wrap: wrap;
 }
-.eclothes_aside_left_content_right>div{
+
+.eclothes_aside_left_content_right>div {
     border-right: #c8c8c8 solid 1px;
     border-top: #c8c8c8 solid 1px;
     flex-grow: 1;
     flex-shrink: 0;
 }
-.eclothes_aside_left_content_right>div>a{
-   display: block;
-   width: 100%;
-   height: 100%; 
+
+.eclothes_aside_left_content_right>div>a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
-.eclothes_aside_left_content_right>div>:nth-child(5+n)>a>img{
+
+.eclothes_aside_left_content_right>div>:nth-child(5+n)>a>img {
     height: 180px;
 }
-.over{
+
+.over {
     margin: 0 auto;
     display: flex;
     width: 1200px;
@@ -717,42 +725,48 @@ aside+div>ul>li>a {
     background-color: yellowgreen;
     margin-bottom: 60px;
 }
-.over>a{
+
+.over>a {
     flex-grow: 1;
     height: 100%;
 }
-.over>a>img{
+
+.over>a>img {
     width: 100%;
 }
-.con>div{
-    height: 1400px;
-    background-color: violet;
-}
+
 /* -------------分界线------------------ */
-section>div{
-    
+section>div {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #c8c8c8 solid 1px;
+    border-left: #c8c8c8 solid 1px;
 }
 
+section>div>a {
+    display: block;
+    width: calc(100%/6);
+    border-right: #c8c8c8 solid 1px;
+    border-bottom: #c8c8c8 solid 1px;
+    height: 274px;
+    text-align: center;
+    padding-top: 6px;
+    color: #666;
+}
 
+section>div>a>div {
+    font-size: 12px;
+    text-align: justify;
+    margin: 8px 0px;
+}
 
+section>div>a>span {
+    display: block;
+    font: 18px Arial;
+    text-align: left;
+    color: #ff2832;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section>div>a>img {
+    width: 80%;
+}
