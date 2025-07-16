@@ -374,9 +374,10 @@ aside+div>ul>li>a {
 
 /* --------------------------------------------------------- */
 
-.ebook{
+.ebook {
     margin-bottom: 30px;
 }
+
 .ebook>div {
     height: 499px;
     display: flex;
@@ -397,7 +398,6 @@ aside+div>ul>li>a {
 
 .aside_left_header {
     width: 910px;
-
     border-bottom: 2px solid #000;
 }
 
@@ -579,7 +579,10 @@ aside+div>ul>li>a {
     height: 132px;
 }
 
-
+/* -------------------------------------- */
+.Books_selected_Hao_store {
+    margin-bottom: 30px;
+}
 
 .Books_selected_Hao_store_input>div:first-child {
     width: 100%;
@@ -602,33 +605,85 @@ aside+div>ul>li>a {
     font-weight: 100;
     color: #6c6c6c;
 }
-.Books_selected_Hao_store_input>div:last-child{
+
+.Books_selected_Hao_store_input>div:last-child {
     display: flex;
     border-top: 1px solid #e6e6e6;
     width: 100%;
     height: 342px;
 }
-.haostorediv{
+
+.haostorediv {
     flex-grow: 1;
 }
-.Books_selected_Hao_store_input>div:last-child>div:nth-child(3){
-   flex-grow: 2;
+
+.Books_selected_Hao_store_input>div:last-child>div:nth-child(3) {
+    flex-grow: 2;
 }
-.haostorediv>a{
+
+.haostorediv>a {
     display: block;
     width: 100%;
     height: 50%;
     border-right: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
 }
+
 /* -------------分界线-------------------------*/
+.eclothes {
+    height: 570px;
+}
 
+.eclothes_aside_left_header {
+    width: 1200px;
+    border-bottom: 2px solid #000;
+}
 
+.eclothes_aside_left_header_h6 {
+    display: flex;
+    justify-content: space-between;
+}
 
+.eclothes_aside_left_header_h6 h6 a {
+    font: bold 20px/44px "Microsoft YaHei";
+    color: #323232;
+}
 
+.eclothes_aside_left_header_h6>ul {
+    height: 44px;
+    display: flex;
+}
 
+.eclothes_aside_left_header_h6>ul>li {
+    width: 112px;
+    text-align: center;
+    border-top: #c8c8c8 solid 1px;
+    border-right: #c8c8c8 solid 1px;
+    font: 14px/44px "Microsoft YaHei";
+    color: #646464;
+}
 
-
-
-
-
+.eclothes_aside_left_header_h6>ul>li:first-child {
+    border-left: #c8c8c8 solid 1px;
+}
+.eclothes_aside_left_content_left>ul>li>a {
+    font: 12px/28px "Microsoft YaHei";
+    display: block;
+    width: 79px;
+    height: 28px;
+    padding-left: 16px;
+}
+.eclothes_aside_left_content{
+    display: flex;
+}
+.eclothes_aside_left_content_left{
+    width: 238px;
+}
+.eclothes_aside_left_content_left>ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.eclothes_aside_left_content_right{
+    display: flex;
+    flex-wrap: wrap;
+}
