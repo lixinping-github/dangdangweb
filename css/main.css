@@ -373,6 +373,7 @@ aside+div>ul>li>a {
 }
 
 /* --------------------------------------------------------- */
+
 .ebook>div {
     height: 499px;
     display: flex;
@@ -382,7 +383,6 @@ aside+div>ul>li>a {
 
 .aside_left {
     width: 910px;
-    height: 499px;
     /* background-color: yellowgreen; */
 }
 
@@ -401,8 +401,7 @@ aside+div>ul>li>a {
 
 .aside_left_content {
     width: 910px;
-    height: 441px;
-    margin-top:11px;
+    margin-top: 11px;
     background-color: tomato;
 }
 
@@ -438,17 +437,48 @@ aside+div>ul>li>a {
 
 /* ------------------------- */
 .aside_left_content_left {
-    width: 238px;
+    width: 239px;
     height: 441px;
     border: 1px solid #e6e6e6;
 }
-.aside_left_content_left>a{
+
+.aside_left_content_left>a {
     display: block;
-     width: 238px;
-    height: 441px;
+    width: 238px;
 
 }
-.aside_left_content_right{
+
+.aside_left_content_right {
     border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
 }
+
+.aside_left_content_left>ul>li>a {
+    font: 12px/28px "Microsoft YaHei";
+    display: block;
+    width: 79px;
+    height: 28px;
+    padding-left: 16px;
+}
+
+.aside_left_content_left>ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* --------------------分界线------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
