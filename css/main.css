@@ -402,7 +402,6 @@ aside+div>ul>li>a {
 .aside_left_content {
     width: 910px;
     margin-top: 11px;
-    background-color: tomato;
 }
 
 .aside_left_header_h6 {
@@ -436,6 +435,10 @@ aside+div>ul>li>a {
 }
 
 /* ------------------------- */
+.aside_left_content{
+    display: flex;
+}
+
 .aside_left_content_left {
     width: 239px;
     height: 441px;
@@ -467,8 +470,41 @@ aside+div>ul>li>a {
 }
 /* --------------------分界线------------------------- */
 
-
-
+.aside_left_content_right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 671px;
+    height: 441px;
+}
+.aside_left_content_right>div{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    width: calc(671px/4);
+    height: calc(441px/2);
+}
+.aside_left_content_right>div:first-child{
+    width: calc(671px/2);
+    
+    
+}
+.aside_left_content_right>div>a:not(:first-child){
+    display: block;
+    text-align: center;
+    margin-top: 7px;
+    width:calc(671px/4);
+    height: calc(441px/2);
+}
+.aside_left_content_right>div>a:first-child{
+    display: block;
+    text-align: center;
+    width:calc(671px/4);
+    height: calc(441px/2);
+}
+.aside_left_content_right>div>a:not(:first-child)>img{
+    width: 150px;
+    height: 150px;
+}
 
 
 
